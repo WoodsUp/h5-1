@@ -1,0 +1,70 @@
+.slide-9 {
+    @include cover-bg('#{$img-path}/page09/bg.jpg');
+
+    img {
+        position: absolute;
+        margin: auto;
+    }
+
+    .item-people {
+        width: 100vw;
+        top: 8vh;
+    }
+    .item-far {
+        width: 95vw;
+        right: 0;
+        bottom: 40vh;
+    }
+    .item-near {
+        width: 60vw;
+        bottom: 35vh;
+        left: 0;
+    }
+    .item-car {
+        height: 12rem;
+        bottom: $subtitle-height;
+        right: 0;
+        z-index: 8;
+    }
+    .item-phone {
+        width: 3rem;
+        bottom: 10rem;
+        right: 45vw;
+        z-index: 9;
+    }
+    .item-pop {
+        width: 8rem;
+        right: 50vw;
+        bottom: 45vh;
+    }
+    .item-moon {
+        width: 4rem;
+        top: 1rem;
+        left: 1rem;
+    }
+    .item-star {
+        width: 3rem;
+        right: 1rem;
+        top: 35vh;
+    }
+    .item-f1 {
+        width: 6rem;
+        top: 16vh;
+        left: 4rem;
+    }
+    .item-f2 {
+        width: 6rem;
+        top: 24vh;
+        left: 3rem;
+    }
+    .item-f3 {
+        width: 5rem;
+        bottom: 54vh;
+        left: 4rem;
+    }
+    .item-f4 {
+        width: 5rem;
+        bottom: 50vh;
+        left: 3.5rem;
+    }
+}

@@ -1,0 +1,64 @@
+.slide-5 {
+    @include cover-bg('#{$img-path}/page05/bg.jpg');
+    background-position: right top;
+
+    img {
+        position: absolute;
+        margin: auto;
+    }
+
+    .item-shop1 {
+        width: 14rem;
+        bottom: $subtitle-height + 1rem;
+        right: 0;
+        z-index: 8;
+    }
+    .item-shop2 {
+        width: 12rem;
+        bottom: 48%;
+        left: 1rem;
+        z-index: 1;
+    }
+    .item-origin {
+        width: 13rem;
+        top: 1.5rem;
+        left: 0.5rem;
+        z-index: 2;
+    }
+    .item-liang {
+        width: 5rem;
+        top: 4rem;
+        left: 0.5rem;
+        z-index: 3;
+    }
+    .item-x {
+        width: 4rem;
+        top: 2.5rem;
+        left: 2.5rem;
+        z-index: 3;
+    }
+    .item-he {
+        width: 5rem;
+        top: 3rem;
+        left: 1.5rem;
+        z-index: 4;
+    }
+    .item-f1 {
+        width: 5rem;
+        top: 40vh;
+        left: 1.5rem;
+        z-index: 4;
+    }
+    .item-f2 {
+        width: 4rem;
+        top: 28vh;
+        right: 40vw;
+        z-index: 4;
+    }
+    .item-man {
+        width: 8rem;
+        bottom: $subtitle-height;
+        left: 18vw;
+        z-index: 9;
+    }
+}

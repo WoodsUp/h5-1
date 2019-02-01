@@ -1,0 +1,135 @@
+
+@-webkit-keyframes flipOutYLeft {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    opacity: 1;
+  }
+
+  90% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0.5;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes flipOutYLeft {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    opacity: 1;
+  }
+
+  90% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0.5;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+.flipOutYLeft {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipOutYLeft;
+  animation-name: flipOutYLeft;
+  transform-origin: 0 center;
+  -webkit-transform-origin: 0 center;
+}
+
+@-webkit-keyframes swingInfinite {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, -15deg);
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, -15deg);
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+}
+
+@keyframes swingInfinite {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, -15deg);
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, -15deg);
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+}
+
+.swingInfinite {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swingInfinite;
+  animation-name: swingInfinite;
+  animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes carInLeft {
+  from {
+    position: absolute;
+    right: 100vw;
+    visibility: visible;
+  }
+
+  to {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@keyframes carInLeft {
+  from {
+    position: absolute;
+    right: 100vw;
+    visibility: visible;
+  }
+
+  to {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.carInLeft {
+  -webkit-animation-name: carInLeft;
+  animation-name: carInLeft;
+}

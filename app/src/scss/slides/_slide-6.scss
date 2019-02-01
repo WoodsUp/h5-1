@@ -1,0 +1,36 @@
+.slide-6 {
+    @include cover-bg('#{$img-path}/page06/bg.jpg');
+
+    img {
+        position: absolute;
+        margin: auto;
+    }
+    .item-shop {
+        width: 70%;
+        bottom: $subtitle-height;
+        right: 1rem;
+        z-index: 7;
+    }
+    .item-wood {
+        width: 100vw;
+        left: 0;
+        right: 0;
+        bottom: $subtitle-height - 1rem;
+        z-index: 9;
+    }
+    .item-flag {
+        width: 120vw;
+        left: -10vw;
+        bottom: $subtitle-height - 0.5rem;
+    }
+    .item-man {
+        width: 12rem;
+        bottom: 50%;
+        left: 2rem;
+    }
+    .item-cloud {
+        width: 8rem;
+        bottom: 45%;
+        left: 0;
+    }
+}

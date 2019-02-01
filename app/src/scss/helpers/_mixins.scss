@@ -1,1 +1,7 @@
 @charset "UTF-8";
+
+@mixin cover-bg($url) {
+  background: url($url) no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Wechat H5 Boilerplate</title>
+    <title>2019年第一份礼物：我花365天，让你业绩提升30倍</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- Add your keywords and description here for SEO. -->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="VR 销售 家装">
+    <meta name="description" content="VR智能零售品牌, 移动端建材门店销售专家">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
     <!-- Uncomment this if you need apple touch icon. -->
@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
     <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
     -->
-
+    <script src="javascripts/jweixin-1.4.0.js"></script>
     <!-- Don't delete this. It's needed for development workflow. -->
     <!-- inject:css -->
     <!-- endinject -->
@@ -30,19 +30,181 @@
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide slide-1">
-            <div class="item-image animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">I'm a coder!</p>
+        <!--page 01-->
+        <div class="swiper-slide slide-1" data-hash="slide-1">
+            <img src="images/page01/dialog.png" class="item-dialog animated"  data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="2s">
+            <img src="images/page01/f1.png" class="item-dialog-f1 animated"  data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="3s">
+            <img src="images/page01/f2.png" class="item-dialog-f2 animated"  data-ani-name="bounceIn" data-ani-duration="0.8s" data-ani-delay="3.5s">
+            <img src="images/page01/pop.png" class="item-pop animated"  data-ani-name="slideInLeft" data-ani-duration="0.5s" data-ani-delay="1s">
+            <img src="images/page01/i.png" class="item-i animated"  data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="1.5s">
+            <img src="images/man.png" class="item-man animated"  data-ani-name="slideInRight" data-ani-duration="0.5s" data-ani-delay="0.5s">
         </div>
-        <div class="swiper-slide slide-2">
-            <div class="item-image animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.3s">I'm a frontend developer!</p>
+        <!--page 01 end-->
+
+        <!--page 02-->
+        <div class="swiper-slide slide-2" data-hash="slide-2">
+            <img src="images/shop3.png" class="item-shop-top animated" data-ani-name="fadeInLeft" data-ani-duration="0.5s" data-ani-delay="0.3s">
+            <img src="images/shop4.png" class="item-shop-bottom animated" data-ani-name="fadeInRight" data-ani-duration="0.5s" data-ani-delay="2s">
+            <img src="images/page02/a_green.png" class="item-a-green animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="0.8s">
+            <img src="images/page02/a_blue.png" class="item-a-blue animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="1.1s">
+            <img src="images/page02/b_blue.png" class="item-b-blue animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="1.4s">
+            <img src="images/page02/b_green.png" class="item-b-green animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="2.5s">
+            <img src="images/page02/b_yellow.png" class="item-b-yellow animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="1.7s">
+            <img src="images/page02/pop2.png" class="item-pop2 animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="3s">
+            <img src="images/page02/vs.png" class="item-vs animated" data-ani-name="bounceIn" data-ani-duration="0.3s" data-ani-delay="3.5s">
+            <img src="images/page02/f1.png" class="item-f1 animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="4s">
+            <img src="images/page02/f2.png" class="item-f2 animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="4.5s">
         </div>
-        <div class="swiper-slide slide-3">
-            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="flipInY" data-ani-duration="1s" data-ani-delay="0.3s">I'm a javascript newbie!</p>
+        <!--page 02 end-->
+
+        <!--page 03-->
+        <div class="swiper-slide slide-3" data-hash="slide-3">
+            <img src="images/page03/boom.png" class="item-boom animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="0.5s">
+            <img src="images/page03/f1.png" class="item-f1 animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="1s">
+            <img src="images/page03/f2.png" class="item-f2 animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="1.3s">
+            <img src="images/page03/f3.png" class="item-f3 animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="1.6s">
+            <img src="images/page03/f4.png" class="item-f4 animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="1.9s">
+            <img src="images/page03/f5.png" class="item-f5 animated" data-ani-name="zoomIn" data-ani-duration="0.5s" data-ani-delay="2.2s">
         </div>
+        <!--page 03 end-->
+
+        <!--page 04-->
+        <div class="swiper-slide slide-4" data-hash="slide-4">
+            <img src="images/old_man.png" class="item-man animated" data-ani-name="flipInX" data-ani-duration="0.5s" data-ani-delay="1s">
+            <img src="images/page04/shop.png" class="item-shop animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="0s">
+            <img src="images/page04/net.png" class="item-net animated" data-ani-name="fadeIn" data-ani-duration="1.5s" data-ani-delay="2s">
+            <img src="images/page04/hz1.png" class="item-hz1 animated" data-ani-name="bounceInLeft" data-ani-duration="1s" data-ani-delay="3s">
+            <img src="images/page04/hz2.png" class="item-hz2 animated" data-ani-name="bounceInRight" data-ani-duration="1s" data-ani-delay="3.5s">
+        </div>
+        <!--page 04 end-->
+
+        <!--page 05-->
+        <div class="swiper-slide slide-5" data-hash="slide-5">
+            <img src="images/old_man.png" class="item-man animated" data-ani-name="flipInX" data-ani-duration="0.5s" data-ani-delay="5.5s">
+            <img src="images/shop1.png" class="item-shop1 animated" data-ani-name="bounceInRight" data-ani-duration="1s" data-ani-delay="5s">
+            <img src="images/shop3.png" class="item-shop2 animated" data-ani-name="bounceInLeft" data-ani-duration="1s" data-ani-delay="0s">
+            <img src="images/page05/he.png" class="item-he animated" data-ani-name="bounceIn" data-ani-duration="1s" data-ani-delay="3.2s">
+            <img src="images/page05/liang.png" class="item-liang animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="1.8s">
+            <img src="images/page05/origin.png" class="item-origin animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="1.2s">
+            <img src="images/page05/x.png" class="item-x animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="2.4s">
+            <img src="images/page05/f1.png" class="item-f1 animated" data-ani-name="fadeIn" data-ani-duration="0.3s" data-ani-delay="4s">
+            <img src="images/page05/f2.png" class="item-f2 animated" data-ani-name="fadeIn" data-ani-duration="0.3s" data-ani-delay="4.5s">
+        </div>
+        <!--page 05 end-->
+
+        <!--page 06-->
+        <div class="swiper-slide slide-6" data-hash="slide-6">
+            <img src="images/shop1.png" class="item-shop animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.3s">
+            <img src="images/page06/flag.png" class="item-flag animated" data-ani-name="rollIn" data-ani-duration="1s" data-ani-delay="2s">
+            <img src="images/page06/man.png" class="item-man animated" data-ani-name="flipInX" data-ani-duration="0.5s" data-ani-delay="1s">
+            <img src="images/page06/cloud.png" class="item-cloud animated" data-ani-name="slideInLeft" data-ani-duration="1.5s" data-ani-delay="0s">
+            <img src="images/page06/wood.png" class="item-wood animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="1.5s">
+        </div>
+        <!--page 06 end-->
+
+        <!--page 07-->
+        <div class="swiper-slide slide-7" data-hash="slide-7">
+            <img src="images/shop1.png" class="item-shop1 animated" data-ani-name="bounceInLeft" data-ani-duration="0.5s" data-ani-delay="2.4s">
+            <img src="images/page07/shop.png" class="item-shop2 animated" data-ani-name="fadeInLeft" data-ani-duration="1s" data-ani-delay="0.3s">
+            <img src="images/page07/far.png" class="item-far animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0s">
+            <img src="images/page07/man.png" class="item-man animated" data-ani-name="bounceInUp" data-ani-duration="0.8s" data-ani-delay="3s">
+            <img src="images/page07/f1.png" class="item-f1 animated" data-ani-name="bounceIn" data-ani-duration="0.45s" data-ani-delay="1s">
+            <img src="images/page07/f2.png" class="item-f2 animated" data-ani-name="bounceIn" data-ani-duration="0.45s" data-ani-delay="1.3s">
+            <img src="images/page07/f3.png" class="item-f3 animated" data-ani-name="bounceIn" data-ani-duration="0.45s" data-ani-delay="1.6s">
+            <img src="images/page07/f4.png" class="item-f4 animated" data-ani-name="bounceIn" data-ani-duration="0.45s" data-ani-delay="1.9s">
+            <img src="images/page07/f5.png" class="item-f5 animated" data-ani-name="bounceIn" data-ani-duration="0.45s" data-ani-delay="2.1s">
+        </div>
+        <!--page 07 end-->
+
+        <!--page 08-->
+        <div class="swiper-slide slide-8" data-hash="slide-8">
+            <img src="images/page08/far.png" class="item-far animated" data-ani-name="slideInLeft" data-ani-duration="1.5s" data-ani-delay="0s">
+            <img src="images/page08/near.png" class="item-near animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">
+            <img src="images/page08/machine.png" class="item-machine animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="0.5s">
+            <img src="images/page08/trunk.png" class="item-trunk animated" data-ani-name="bounceInLeft" data-ani-duration="1s" data-ani-delay="1s">
+            <img src="images/page08/car.png" class="item-car animated" data-ani-name="carInLeft" data-ani-duration="8s" data-ani-delay="0s">
+            <img src="images/page08/hook.png" class="item-hook animated" data-ani-name="rollIn" data-ani-duration="3s" data-ani-delay="0.5s">
+        </div>
+        <!--page 08 end-->
+
+        <!--page 09-->
+        <div class="swiper-slide slide-9" data-hash="slide-9">
+            <img src="images/page09/people.png" class="item-people animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0s">
+            <img src="images/page09/phone.png" class="item-phone animated" data-ani-name="bounceIn" data-ani-duration="1s" data-ani-delay="8s">
+            <img src="images/page09/far.png" class="item-far animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">
+            <img src="images/page09/near.png" class="item-near animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0.6s">
+            <img src="images/page09/pop.png" class="item-pop animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="1.8s">
+            <img src="images/page09/f1.png" class="item-f1 animated" data-ani-name="zoomIn" data-ani-duration="0.3s" data-ani-delay="1.2s">
+            <img src="images/page09/f2.png" class="item-f2 animated" data-ani-name="zoomIn" data-ani-duration="0.3s" data-ani-delay="1.5s">
+            <img src="images/page09/f3.png" class="item-f3 animated" data-ani-name="bounceIn" data-ani-duration="0.3s" data-ani-delay="2.4s">
+            <img src="images/page09/f4.png" class="item-f4 animated" data-ani-name="bounceIn" data-ani-duration="0.3s" data-ani-delay="2.8s">
+            <img src="images/page09/car.png" class="item-car animated" data-ani-name="carInLeft" data-ani-duration="8s" data-ani-delay="0s">
+            <img src="images/page09/star.png" class="item-star animated" data-ani-name="fadeIn" data-ani-duration="1s" data-ani-delay="0.8s">
+            <img src="images/page09/moon.png" class="item-moon animated" data-ani-name="fadeIn" data-ani-duration="1s" data-ani-delay="1s">
+        </div>
+        <!--page 09 end-->
+
+        <!--page 10-->
+        <div class="swiper-slide slide-10" data-hash="slide-10">
+            <img src="images/page10/old_man.png" class="item-old-man animated" data-ani-name="fadeInLeft" data-ani-duration="0.5s" data-ani-delay="3s">
+            <img src="images/page10/man.png" class="item-man animated" data-ani-name="fadeIn" data-ani-duration="0.5s" data-ani-delay="0.5s">
+            <img src="images/page10/woman.png" class="item-woman animated" data-ani-name="fadeInRight" data-ani-duration="0.5s" data-ani-delay="3.3s">
+            <img src="images/page10/girl.png" class="item-girl animated" data-ani-name="fadeInLeft" data-ani-duration="0.5s" data-ani-delay="3.6s">
+            <img src="images/page10/dog.png" class="item-dog animated" data-ani-name="lightSpeedIn" data-ani-duration="0.5s" data-ani-delay="3.9s">
+            <img src="images/page10/pop.png" class="item-pop animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="4.2s">
+            <img src="images/page10/f1.png" class="item-f1 animated" data-ani-name="bounceIn" data-ani-duration="0.5s" data-ani-delay="2.5s">
+            <img src="images/page10/wall.png" class="item-wall animated" data-ani-name="fadeOutRight" data-ani-duration="0.5s" data-ani-delay="2s">
+            <img src="images/page10/door.png" class="item-door animated" data-ani-name="flipOutYLeft" data-ani-duration="1s" data-ani-delay="1s">
+        </div>
+        <!--page 10 end-->
+
+        <!--page 11-->
+        <div class="swiper-slide slide-11" data-hash="slide-11" data-no-arrow="true">
+            <img src="images/page11/ht.png" class="item-ht animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.8s">
+            <img src="images/page11/man.png" class="item-man animated" data-ani-name="bounceInRight" data-ani-duration="1s" data-ani-delay="0.3s">
+            <img src="images/page11/lantern.png" class="item-lantern animated" data-ani-name="swingInfinite" data-ani-duration="6s" data-ani-delay="0s">
+            <img src="images/page11/mail.png" class="item-mail animated" data-ani-name="bounceIn" data-ani-duration="1s" data-ani-delay="4.5s" id="jump-to-invitation">
+            <img src="images/page11/f1.png" class="item-f1 animated" data-ani-name="fadeInUp" data-ani-duration="0.5s" data-ani-delay="2s">
+            <img src="images/page11/f2.png" class="item-f2 animated" data-ani-name="fadeInUp" data-ani-duration="0.5s" data-ani-delay="2.7s">
+            <img src="images/page11/f3.png" class="item-f3 animated" data-ani-name="fadeInUp" data-ani-duration="0.5s" data-ani-delay="3.4s">
+            <img src="images/page11/f4.png" class="item-f4 animated" data-ani-name="fadeInUp" data-ani-duration="0.5s" data-ani-delay="4.1s">
+        </div>
+        <!--page 11 end-->
+
+        <!--page 12-->
+        <div class="swiper-slide slide-12" data-hash="slide-12"></div>
+        <!--page 12 end-->
+
+        <!--page 13-->
+        <div class="swiper-slide slide-13" data-hash="slide-13" data-no-arrow="true">
+            <div class="item-top">
+                深圳市塔木科技有限公司是一家拥有自研VR技术的沉浸式体验科技公司。
+                2016年上线的云深间造VR是一套简单、快速、专业的三维营销导购系统，
+                提供VR技术驱动的新零售解决方案。
+                云深间造以VR设计、数据营销、 在线云服务的产品形式，
+                帮助中国家居建材企业和终端门店快速实施智能化选购和营销数字化管理。
+            </div>
+            <div class="item-bottom">
+                <div class="left">
+                    <img src="images/invitation/adv.png" class="adv">
+                </div>
+                <div class="right">
+                    <img src="images/invitation/header.png" class="header">
+                    <form id="J_form" class="form">
+                        <input id="J_username" type="text" class="form-control" placeholder="请输入姓名" maxlength="12" required>
+                        <input id="J_phone" type="number" class="form-control" placeholder="请输入手机号" maxlength="11" required>
+                        <input type="submit" class="form-submit" value="确认提交">
+                    </form>
+                    <div class="footer">
+                        <img src="images/invitation/qrcode.png" class="qrcode">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--page 13 end-->
     </div>
+
+    <div class="subtitle" id="subtitle"></div>
 </div>
 
 <button class="up-arrow">

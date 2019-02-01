@@ -12,6 +12,7 @@
     border-radius: 50%;
     padding: 0;
     animation: btnMusicAni 3s infinite linear;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
     i {
         width: 2rem;
         height: 2rem;
@@ -22,6 +23,9 @@
         position: absolute;
         top: -0.125rem;
         left: -0.125rem;
+        &::before {
+            text-shadow: 0 0 2px rgba(0,0,0,.2);
+        }
     }
     &.paused {
         opacity: 0.4;

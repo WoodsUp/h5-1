@@ -1,28 +1,40 @@
 .slide-3 {
-    background-color: #9993c1;
-    .item-image {
-        width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+    @include cover-bg('#{$img-path}/page03/bg.jpg');
+    background-position: right top;
+
+    img {
         position: absolute;
-        top: 4rem;
-        left: 0;
-        right: 0;
         margin: auto;
-        background-image: url('../images/github-3.png');
     }
-    .item-text {
-        width: 18rem;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: bold;
-        position: absolute;
-        top: 24rem;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        text-align: center;
+
+    .item-boom {
+        width: 120vw;
+        left: -10vw;
+        top: 18vh;
+    }
+    .item-f1 {
+        width: 9rem;
+        top: 8vh;
+        right: 1rem;
+    }
+    .item-f2 {
+        width: 7rem;
+        top: 27vh;
+        left: 1rem;
+    }
+    .item-f3 {
+        width: 6rem;
+        top: 25vh;
+        right: 2rem;
+    }
+    .item-f4 {
+        width: 8.5rem;
+        bottom: 25vh;
+        left: 1.5rem;
+    }
+    .item-f5 {
+        width: 6rem;
+        bottom: 30vh;
+        right: 1rem;
     }
 }

@@ -1,0 +1,67 @@
+.slide-12 {
+    @include cover-bg('#{$img-path}/invitation/page1.jpg');
+
+    img {
+        position: absolute;
+        margin: auto;
+    }
+    .item-man {
+        width: 10rem;
+        bottom: $subtitle-height;
+        right: 0;
+        z-index: 8;
+    }
+    .item-mail {
+        width: 11rem;
+        left: 0;
+        bottom: 20vh;
+    }
+    .item-lantern {
+        width: 6.5rem;
+        top: 1rem;
+        left: 0;
+        right: 0;
+    }
+    .item-pop {
+        width: 5rem;
+        top: 40vh;
+        left: 50vw;
+    }
+    .item-f1 {
+        height: 1rem;
+        bottom: 50vh;
+        left: 0;
+        right: 0;
+        margin-bottom: 4.5rem;
+        z-index: 6;
+    }
+    .item-f2 {
+        height: 1rem;
+        bottom: 50vh;
+        left: 0;
+        right: 0;
+        margin-bottom: 3rem;
+        z-index: 6;
+    }
+    .item-f3 {
+        height: 1rem;
+        bottom: 50vh;
+        left: 0;
+        right: 0;
+        margin-bottom: 1.5rem;
+        z-index: 6;
+    }
+    .item-f4 {
+        height: 1rem;
+        bottom: 50vh;
+        left: 0;
+        right: 0;
+        z-index: 6;
+    }
+    .item-ht {
+        width: 3rem;
+        bottom: $subtitle-height - 0.5rem;
+        right: -0.2rem;
+        z-index: 9;
+    }
+}

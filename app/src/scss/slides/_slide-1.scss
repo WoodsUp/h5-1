@@ -1,28 +1,42 @@
 .slide-1 {
-    background-color: #e88a63;
-    .item-image {
-        width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+    @include cover-bg('#{$img-path}/page01/bg.jpg');
+
+    img {
         position: absolute;
-        top: 4rem;
-        left: 0;
-        right: 0;
         margin: auto;
-        background-image: url('../images/github-1.png');
     }
-    .item-text {
-        width: 18rem;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: bold;
-        position: absolute;
-        top: 24rem;
-        left: 0;
+
+    .item-dialog {
+        top: 10vh;
+        left: 2rem;
         right: 0;
-        margin: 0 auto;
-        text-align: center;
+        width: 18rem;
+    }
+    .item-dialog-f1 {
+        top: 18vh;
+        left: 0;
+        right: 2rem;
+        width: 10rem;
+    }
+    .item-dialog-f2 {
+        top: 26vh;
+        left: 3rem;
+        right: 0;
+        width: 10rem;
+    }
+    .item-pop {
+        top: 45vh;
+        left: 0;
+        width: 12rem;
+    }
+    .item-i {
+        top: 50vh;
+        left: 3rem;
+        width: 4rem;
+    }
+    .item-man {
+        bottom: $subtitle-height;
+        right: 0;
+        width: 12rem;
     }
 }

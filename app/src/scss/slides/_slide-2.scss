@@ -1,25 +1,82 @@
 .slide-2 {
-    background-color: #5cc2f1;
-    .item-image {
-        width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+    @include cover-bg('#{$img-path}/page02/bg.jpg');
+
+    img {
         position: absolute;
-        top: 4rem;
+        margin: auto;
+    }
+
+    .item-shop-top {
+        width: 12rem;
+        top: 0;
+        left: 0;
+    }
+    .item-shop-bottom {
+        width: 12rem;
+        bottom: $subtitle-height;
+        right: 0;
+        z-index: 2;
+    }
+    .item-a-green {
+        width: 8rem;
+        top: 8rem;
+        right: 2rem;
+    }
+    .item-a-blue {
+        width: 12rem;
+        bottom: $subtitle-height - 0.5rem;
+        left: 0.3rem;
+    }
+    .item-b-blue {
+        width: 10rem;
+        top: 1rem;
+        right: 1rem;
+    }
+    .item-b-green {
+        width: 8rem;
+        bottom: $subtitle-height + 8.8rem;
+        right: 0.2rem;
+        z-index: 3;
+    }
+    .item-b-yellow {
+        width: 8rem;
+        bottom: 40vh;
+        left: 0;
+        z-index: 3;
+    }
+    .item-pop2 {
+        width: 95vw;
+        top: 25vh;
+        right: 0;
+        z-index: 4;
+    }
+    .item-vs {
+        width: 8rem;
+        top: 36vh;
         left: 0;
         right: 0;
-        margin: auto;
-        background-image: url('../images/github-2.png');
+        z-index: 5;
     }
-    .item-text {
-        width: 18rem;
+    .item-f1 {
+        width: 14rem;
+        top: 27vh;
+        left: 1rem;
+        z-index: 6;
+    }
+    .item-f2 {
+        width: 14rem;
+        top: 48vh;
+        right: 1rem;
+        z-index: 6;
+    }
+
+    .item-kkk {
+        width: 4rem;
         color: #fff;
         font-size: 1.2rem;
         font-weight: bold;
         position: absolute;
-        top: 24rem;
+        top: 124rem;
         left: 0;
         right: 0;
         margin: 0 auto;

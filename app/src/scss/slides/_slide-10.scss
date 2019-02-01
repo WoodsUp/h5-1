@@ -1,0 +1,58 @@
+.slide-10 {
+    @include cover-bg('#{$img-path}/page10/bg.jpg');
+
+    img {
+        position: absolute;
+        margin: auto;
+    }
+    .item-old-man {
+        width: 6rem;
+        left: 2rem;
+        bottom: 45vh;
+    }
+    .item-man {
+        width: 10rem;
+        bottom: $subtitle-height;
+        right: 0;
+        z-index: 8;
+    }
+    .item-woman {
+        width: 6rem;
+        right: 4rem;
+        bottom: 45vh;
+    }
+    .item-girl {
+        width: 8rem;
+        bottom: 32vh;
+        left: 20vw;
+    }
+    .item-dog {
+        width: 4rem;
+        bottom: 35vh;
+        left: 1rem;
+    }
+    .item-pop {
+        width: 5rem;
+        top: 35vh;
+        left: 50vw;
+    }
+    .item-f1 {
+        width: 10rem;
+        bottom: 20vh;
+        left: 3rem;
+        z-index: 9;
+    }
+    .item-wall {
+        width: 100vw;
+        bottom: $subtitle-height - 0.1rem;
+        left: 0;
+        right: 0;
+        z-index: 6;
+    }
+    .item-door {
+        width: 75vw;
+        bottom: $subtitle-height - 0.1rem;
+        left: 10vw;
+        z-index: 7;
+    }
+}

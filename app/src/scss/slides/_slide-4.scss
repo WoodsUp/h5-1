@@ -1,0 +1,36 @@
+.slide-4 {
+    @include cover-bg('#{$img-path}/page04/bg.jpg');
+
+    img {
+        position: absolute;
+        margin: auto;
+    }
+
+    .item-shop {
+        width: 16rem;
+        top: 2rem;
+        right: 2rem;
+        left: 0;
+    }
+    .item-net {
+        width: 8rem;
+        top: 10rem;
+        right: 2rem;
+    }
+    .item-man {
+        width: 10rem;
+        bottom: $subtitle-height;
+        left: 1rem;
+        z-index: 5;
+    }
+    .item-hz1 {
+        right: 6rem;
+        bottom: $subtitle-height + 4rem;
+        width: 6rem;
+    }
+    .item-hz2 {
+        right: 0.8rem;
+        bottom: $subtitle-height + 5.5rem;
+        width: 6rem;
+    }
+}

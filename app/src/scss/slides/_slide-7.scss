@@ -1,0 +1,62 @@
+.slide-7 {
+    @include cover-bg('#{$img-path}/page07/bg.jpg');
+    background-position: center top;
+
+    img {
+        position: absolute;
+        margin: auto;
+    }
+
+    .item-shop1 {
+        width: 14rem;
+        bottom: 35vh;
+        left: 0;
+        z-index: 7;
+    }
+    .item-shop2 {
+        width: 12rem;
+        bottom: 40vh;
+        right: 0;
+        z-index: 1;
+    }
+    .item-far {
+        width: 100vw;
+        top: 20vh;
+    }
+    .item-man {
+        width: 100vw;
+        bottom: $subtitle-height - 3rem;
+        right: -1rem;
+        z-index: 9;
+    }
+    .item-f1 {
+        top: 15vh;
+        left: 1rem;
+        width: 8rem;
+        z-index: 6;
+    }
+    .item-f2 {
+        bottom: 28vh;
+        left: 0.5rem;
+        width: 5rem;
+        z-index: 6;
+    }
+    .item-f3 {
+        bottom: 20vh;
+        left: 2.5rem;
+        width: 6rem;
+        z-index: 6;
+    }
+    .item-f4 {
+        top: 20vh;
+        right: 1rem;
+        width: 7rem;
+        z-index: 6;
+    }
+    .item-f5 {
+        top: 40vh;
+        right: 1rem;
+        width: 7rem;
+        z-index: 6;
+    }
+}

@@ -1,5 +1,7 @@
 var $ = require('jquery');
 
+// 调整速度
+var speedControl = 0.5;
 module.exports = {
     initAnimationItems: function() {
         $('.animated').each(function () {
@@ -7,8 +9,8 @@ module.exports = {
             
             $(this).attr('data-origin-class', $(this).attr('class'));
             
-            aniDuration = $(this).data('ani-duration');
-            aniDelay = $(this).data('ani-delay');
+            aniDuration = (parseFloat($(this).data('ani-duration')) * speedControl) + 's';
+            aniDelay = (parseFloat($(this).data('ani-delay')) * speedControl) + 's';
             
             $(this).css({
                 'visibility': 'hidden',
