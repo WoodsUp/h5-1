@@ -104,7 +104,7 @@
                 animationControl.initAnimationItems();  // get items ready for animations
                 animationControl.playAnimation(swiper); // play animations of the first slide
                 if (swiper.activeIndex < 11) {
-                    $subtitle.typing(textArray[swiper.activeIndex], 1500);
+                    $subtitle.typing(textArray[swiper.activeIndex], 1000);
                 }
             },
             onTransitionStart: function (swiper) {     // on the last slide, hide .btn-swipe
@@ -129,7 +129,7 @@
                 }
                 animationControl.playAnimation(swiper);
                 if (swiper.activeIndex < 11) {
-                    $subtitle.typing(textArray[swiper.activeIndex], 1500);
+                    $subtitle.typing(textArray[swiper.activeIndex], 1000);
                 }
             },
             onTouchStart: function (swiper, event) {    // mobile devices don't allow audios to play automatically, it has to be triggered by a user event(click / touch).
@@ -144,10 +144,10 @@
         $('.loading-overlay').slideUp();
 
         // jump to invitation
-        $('#jump-to-invitation').on('touchend', function() {
-            mySwiper.unlockSwipes();
-            mySwiper.slideNext();
-        });
+        // $('#jump-to-invitation').on('touchend', function() {
+        //     mySwiper.unlockSwipes();
+        //     mySwiper.slideNext();
+        // });
 
         $('#J_form').on('submit', function(e) {
             e.preventDefault();

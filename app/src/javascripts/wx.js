@@ -2,7 +2,7 @@ var $ = require('jquery');
 
 // 微信分享配置
 function setWx() {
-    var apiUrl = 'https://h5.wecareroom.com/api/wxweb/getFuwuTicket';
+    var apiUrl = 'http://h5.wecareroom.com/api/wxweb/getFuwuTicket';
     $.ajax({
         type: 'GET',
         url: apiUrl,
